@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MSUdrive</string>
+    <string name="navigate_message">This app is intended to navigate you from your current location, to Montclair State University</string>
+    <string name="navigate_message2">To ensure accuracy, change your device settings to reflect your current location</string>
+</resources>

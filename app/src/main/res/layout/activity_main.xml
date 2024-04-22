@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this is basic layout with an app description, guidelines, and a button to trigger navigation -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/abstractcopy">
+
+    <TextView
+        android:id="@+id/navigateMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/navigate_message"
+        android:textColor="@color/purple"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/navigateMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/navigate_message2"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:layout_below="@id/navigateMessage1" />
+
+    <Button
+        android:id="@+id/navigateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navigateMessage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Drive to MSU" />
+
+</RelativeLayout>
